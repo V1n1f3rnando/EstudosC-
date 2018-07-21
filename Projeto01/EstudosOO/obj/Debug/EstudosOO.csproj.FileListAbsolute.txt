@@ -1,0 +1,7 @@
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto01\EstudosOO\bin\Debug\EstudosOO.exe.config
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto01\EstudosOO\bin\Debug\EstudosOO.exe
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto01\EstudosOO\bin\Debug\EstudosOO.pdb
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto01\EstudosOO\obj\Debug\EstudosOO.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto01\EstudosOO\obj\Debug\EstudosOO.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto01\EstudosOO\obj\Debug\EstudosOO.exe
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto01\EstudosOO\obj\Debug\EstudosOO.pdb
