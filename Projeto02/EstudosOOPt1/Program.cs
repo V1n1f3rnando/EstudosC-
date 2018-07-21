@@ -12,6 +12,7 @@ namespace EstudosOOPt1
             // Instânciando a classe Funcionario
              var f = new Funcionario();
 
+            //Utilizando os métodos abstratos da classe FuncionarioLeitura
             f.IdFuncionario = FuncionarioLeitura.LerIdFuncionario();
             f.Nome = FuncionarioLeitura.LerNome();
             f.Salario = FuncionarioLeitura.LerSalario();
