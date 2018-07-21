@@ -1,17 +1,21 @@
 ﻿using System;
 using EstudosOOPt1.Entidades; // Importando as entidades 
+using EstudosOOPt1.Leitura;
 
 
 namespace EstudosOOPt1
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             // Instânciando a classe Funcionario
-            // var f = new Funcionario();
+             var f = new Funcionario();
 
-            var f = new Funcionario();
+            f.IdFuncionario = FuncionarioLeitura.LerIdFuncionario();
+            f.Nome = FuncionarioLeitura.LerNome();
+            f.Salario = FuncionarioLeitura.LerSalario();
+            f.DataAdmissao = FuncionarioLeitura.LerDataAdmissao();
 
             //Imprimindo
             Console.Write("\n ID: " + f.IdFuncionario);

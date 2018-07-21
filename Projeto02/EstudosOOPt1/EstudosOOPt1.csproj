@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\ControlePagamento.cs" />
     <Compile Include="Entidades\Funcionario.cs" />
     <Compile Include="Leitura\FuncionarioLeitura.cs" />
     <Compile Include="Program.cs" />

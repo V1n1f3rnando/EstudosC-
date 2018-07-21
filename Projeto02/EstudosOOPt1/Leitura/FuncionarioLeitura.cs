@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EstudosOOPt1.Entidades
+namespace EstudosOOPt1.Leitura
 {
     public class FuncionarioLeitura
     {
