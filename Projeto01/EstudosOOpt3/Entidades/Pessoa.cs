@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EstudosOOpt3.Entidades
 {
-    public class Pessoa
+    public abstract class Pessoa // Classe abstrata, usada como classe modelo, pode conter métodos abstratos.
     {
         private int idPessoa;
         private string nome;

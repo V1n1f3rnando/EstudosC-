@@ -10,6 +10,12 @@ namespace EstudosOOpt3.Entidades
     {
         private string cpf;
 
+        //Construtor da classe 
+        public PessoaFisica()
+        {
+
+        }
+
         public string Cpf
         {
             set { cpf = value; }
