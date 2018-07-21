@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using EstudosOOPt1.Entidades; // Importando as entidades 
-using System.IO; //Importando o namespace que contém a classe de escrita e leitura de arquivos.
+
 
 namespace EstudosOOPt1
 {
@@ -16,7 +11,7 @@ namespace EstudosOOPt1
             // Instânciando a classe Funcionario
             // var f = new Funcionario();
 
-            f.IdFuncionario =
+            var f = new Funcionario();
 
             //Imprimindo
             Console.Write("\n ID: " + f.IdFuncionario);

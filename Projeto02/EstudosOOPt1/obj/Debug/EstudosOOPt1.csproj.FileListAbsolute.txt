@@ -4,3 +4,4 @@ C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt1\bin\Debu
 C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt1\obj\Debug\EstudosOOPt1.csproj.CoreCompileInputs.cache
 C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt1\obj\Debug\EstudosOOPt1.exe
 C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt1\obj\Debug\EstudosOOPt1.pdb
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt1\obj\Debug\EstudosOOPt1.csprojResolveAssemblyReference.cache
