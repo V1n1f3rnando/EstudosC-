@@ -1,0 +1,9 @@
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\bin\Debug\App_Data\Banco.mdf
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\bin\Debug\App_Data\Banco_log.ldf
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\bin\Debug\EstudosPOOPt1.exe.config
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\bin\Debug\EstudosPOOPt1.exe
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\bin\Debug\EstudosPOOPt1.pdb
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\obj\Debug\EstudosPOOPt1.csprojAssemblyReference.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\obj\Debug\EstudosPOOPt1.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\obj\Debug\EstudosPOOPt1.exe
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto03\EstudosPOOPt1\obj\Debug\EstudosPOOPt1.pdb
