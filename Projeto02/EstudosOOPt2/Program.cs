@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EstudosOOPt2.Entidades; //Importando
+using EstudosOOPt2.Controles; //Importando
 
 namespace EstudosOOPt2
 {
@@ -22,6 +23,18 @@ namespace EstudosOOPt2
             c.Endereco.Cidade = "Queimados";
             c.Endereco.Estado = "RJ";
             c.Endereco.Cep = "26381-754";
+
+            try
+            {
+                ClienteControle cc = new ClienteControle(); // Instanciando 
+                cc.ExportarDadosXml(c);
+
+                Console.WriteLine(" Dados gravados com sucesso !!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro: "+ex.Message);
+            }
 
             Console.ReadKey();
         }
