@@ -11,6 +11,7 @@ namespace EstudosOO.Entidades
         public int IdProduto { get; set; }
         public string Nome { get; set; }
         public decimal Preco { get; set; }
+        public int Quantidade { get; set; }
 
         //Construtor 
         public Produto()
@@ -19,17 +20,18 @@ namespace EstudosOO.Entidades
         }
 
         //Sobrecarregando o construtor 
-        public Produto(int idProduto, string nome, decimal preco)
+        public Produto(int idProduto, string nome, decimal preco, int quantidade)
         {
             IdProduto = idProduto;
             Nome = nome;
             Preco = preco;
+            Quantidade = quantidade;
         }
 
         //Sobrescrevendo o Método ToString da classe object 
         public override string ToString()
         {
-            return $"ID{IdProduto}\n Produto:{Nome}\n Preço: R${Preco}";
+            return $" ID{IdProduto}\n Produto:{Nome}\n Preço: R${Preco}\n Quantidade:{Quantidade}";
         }
     }
 }
