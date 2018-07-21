@@ -1,0 +1,7 @@
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt2\bin\Debug\EstudosOOPt2.exe.config
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt2\bin\Debug\EstudosOOPt2.exe
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt2\bin\Debug\EstudosOOPt2.pdb
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt2\obj\Debug\EstudosOOPt2.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt2\obj\Debug\EstudosOOPt2.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt2\obj\Debug\EstudosOOPt2.exe
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto02\EstudosOOPt2\obj\Debug\EstudosOOPt2.pdb

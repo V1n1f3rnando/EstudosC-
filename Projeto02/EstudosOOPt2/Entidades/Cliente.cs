@@ -12,13 +12,15 @@ namespace EstudosOOPt2.Entidades
         public string Nome { get; set; }
         public string Email { get; set; }
 
-        //Construtor
+        //Relacionamento de Associação (TER-1)
+        public Endereco Endereco { get; set; }
+
         public Cliente()
         {
 
         }
 
-        //Sobrecarregando o construtor 
+        //Sobrecarga de construtor 
         public Cliente(int idCliente, string nome, string email)
         {
             IdCliente = idCliente;
@@ -26,10 +28,9 @@ namespace EstudosOOPt2.Entidades
             Email = email;
         }
 
-        //Sobrecarregando o método ToString da classe Object
         public override string ToString()
         {
-            return $"\n ID: {IdCliente}\n Nome:{Nome}\n Email:{Email}";
+            return string.Format("Cliente: {0}, {1}, {2}", IdCliente, Nome, Email);
         }
     }
 }
