@@ -35,13 +35,9 @@ namespace EstudosOO
             Console.Write("\n Informe a quantidade: ");
             p.Quantidade = int.Parse(Console.ReadLine());
 
-            //Imprimindo 
-
-            Console.WriteLine("\n -- Dados do Produto --");
-            Console.WriteLine("\n ID:"+p.IdProduto);
-            Console.WriteLine("\n Produto: "+p.Nome);
-            Console.WriteLine("\n Preço: "+p.Preco);
-            Console.WriteLine("\n Quantidade: "+p.Quantidade);
+            //Instânciando a classe produto impressão e chamando o método ImprimirDados
+            var imprimir = new ProdutoImpressao();
+            imprimir.ImprimirDados(p);
 
             Console.ReadKey();
         }
