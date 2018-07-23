@@ -16,8 +16,7 @@ namespace EstudosPOOPt1.Repositorios
             AbrirConexao();
 
             //Escrevendo o comando em sql
-            string query = "insert into Pessoa (nome, dataNascimento)" +
-                " values (@nome, @dataNascimento) ";
+            string query = "insert into Pessoa (nome, dataNascimento) values (@nome, @dataNascimento) ";
 
             //executando o comando 
             cmd = new SqlCommand(query, con);

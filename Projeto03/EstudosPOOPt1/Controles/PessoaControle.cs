@@ -16,14 +16,15 @@ namespace EstudosPOOPt1.Controles
 
             try
             {
-                var p = new Pessoa();
 
+                var p = new Pessoa();
                 Console.Write("Informe o nome: ");
                 p.Nome = Console.ReadLine();
 
                 Console.WriteLine("Informe a data de Nasc:");
                 p.DataNasc = DateTime.Parse(Console.ReadLine());
 
+                //Instânciando a entidade PessoaRepositorio
                 var rep = new PessoaRepositorio();
                 rep.Cadastrar(p);
 
@@ -33,6 +34,7 @@ namespace EstudosPOOPt1.Controles
             {
 
                 Console.WriteLine("Erro: "+ex.Message);
+                
             }
         }
         
