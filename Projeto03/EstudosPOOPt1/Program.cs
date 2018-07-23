@@ -30,6 +30,10 @@ namespace EstudosPOOPt1
                     Pc.CadastrarPessoa();
                     break;
 
+                case 4:
+                    Pc.ConsultarPessoas();
+                    break;
+
                 default:
                     Console.WriteLine("Opção inválida !!");
                     break;

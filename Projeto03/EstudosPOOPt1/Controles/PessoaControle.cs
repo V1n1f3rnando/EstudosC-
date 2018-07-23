@@ -37,6 +37,29 @@ namespace EstudosPOOPt1.Controles
                 
             }
         }
+
+        public void ConsultarPessoas()
+        {
+            Console.WriteLine("\n - PESSOAS CADASTRADAS - \n");
+
+            try
+            {
+                var rep = new PessoaRepositorio();
+
+                foreach (var p in rep.ConsultarPessoa())
+                {
+                    Console.WriteLine(p.ToString());
+                }
+
+                Console.WriteLine(" Busca realizada com sucesso !");
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine(e.Message);
+            }   
+         
+        }
         
 
 
