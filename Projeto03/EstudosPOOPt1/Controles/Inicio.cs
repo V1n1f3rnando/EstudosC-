@@ -22,6 +22,7 @@ namespace EstudosPOOPt1.Controles
             Console.WriteLine("(3) Excluir");
             Console.WriteLine("(4) Listar Todos");
             Console.WriteLine("(5) Buscar Po Id");
+            Console.WriteLine("(6) Sair");
 
             Console.Write("\n Escolha uma opção: ");
             int opcao = int.Parse(Console.ReadLine());
@@ -48,6 +49,10 @@ namespace EstudosPOOPt1.Controles
 
                 case 5:
                     Pc.BuscarPessoaPorId();
+                    break;
+
+                case 6:
+                    Environment.Exit(1);
                     break;
 
                 default:

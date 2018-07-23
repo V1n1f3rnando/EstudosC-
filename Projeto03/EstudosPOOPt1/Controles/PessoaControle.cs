@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using EstudosPOOPt1.Entidades;
 using EstudosPOOPt1.Repositorios;
-using EstudosPOOPt1.Controles;
+
 
 namespace EstudosPOOPt1.Controles
 {
-    public class PessoaControle : Inicio
+    public class PessoaControle 
     {
        public void CadastrarPessoa()
         {
@@ -42,7 +42,7 @@ namespace EstudosPOOPt1.Controles
 
                     case 2:
                         Console.Clear();
-                        Menu();
+                        Inicio.Menu();
                         break;
 
                     case 3:
@@ -90,14 +90,14 @@ namespace EstudosPOOPt1.Controles
 
                         case 'n':
                             Console.Clear();
-                            Menu();
+                            Inicio.Menu();
                             break;
 
                         default:
                             Console.WriteLine("\n Valor inválido !! preciso uma tecla para voltar ao menu.");
                             Console.ReadKey();
                             Console.Clear();
-                            Menu();
+                            Inicio.Menu();
                             break;
                     }
                 }
@@ -106,7 +106,7 @@ namespace EstudosPOOPt1.Controles
                     Console.WriteLine("\n  Valor inválido verifique o id digitado..");
                     Console.ReadKey();
                     Console.Clear();
-                    Menu();
+                    Inicio.Menu();
                 }
                
             }
@@ -147,7 +147,7 @@ namespace EstudosPOOPt1.Controles
                     Console.ReadKey();
 
                     Console.Clear();
-                    Menu();
+                    Inicio.Menu();
 
                 }
                 else
@@ -155,7 +155,7 @@ namespace EstudosPOOPt1.Controles
                     Console.WriteLine("\n Valor inválido verifique o id digitado..");
                     Console.ReadKey();
                     Console.Clear();
-                    Menu();
+                    Inicio.Menu();
                 }
             }
             catch (Exception ex)
@@ -190,7 +190,7 @@ namespace EstudosPOOPt1.Controles
                 {
                     
                     Console.Clear();
-                    Menu();
+                    Inicio.Menu();
 
                 }
                 else
@@ -220,12 +220,45 @@ namespace EstudosPOOPt1.Controles
             {
                 var rep = new PessoaRepositorio();
 
-                Console.WriteLine("\n Dados solicitados: \n"+ rep.BuscarPessoaPoId(id)); 
+                if (rep.BuscarPessoaPoId(id) != null)
+                {
+                    string resultado = rep.BuscarPessoaPoId(id).ToString(); ;
+                    Console.Write("\n Dados solicitados: " +resultado+"\n ");
+                    Console.Write("\n Deseja efetuar uma nova consulta ? s/n:");
+                    char opcao = char.Parse(Console.ReadLine());
+                    switch (opcao)
+                    {
+                        case 's':
+                            Console.Clear();
+                            BuscarPessoaPorId();
+                            break;
+
+                        case 'n':
+                            Console.Clear();
+                            Inicio.Menu();
+                            break;
+
+                        default:
+                            Console.WriteLine("\n Opção inválida !! \n");
+                            Console.Clear();
+                            Inicio.Menu();
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("\n Valor inválido verifique o id digitado.. \n ");
+                    Console.ReadKey();
+                    Console.Clear();
+                    Inicio.Menu();
+                }
+
+                
             }
             catch (Exception ex)
             {
 
-                Console.WriteLine("Erro !"+ex.Message);
+                Console.WriteLine("\n Erro !"+ex.Message);
             }
             
 
