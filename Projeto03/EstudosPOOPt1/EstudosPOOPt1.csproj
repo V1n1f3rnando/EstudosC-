@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexao.cs" />
+    <Compile Include="Controles\Inicio.cs" />
     <Compile Include="Controles\PessoaControle.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
     <Compile Include="Program.cs" />

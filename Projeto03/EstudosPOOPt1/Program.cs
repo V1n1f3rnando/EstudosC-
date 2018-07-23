@@ -11,33 +11,10 @@ namespace EstudosPOOPt1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n ---- CONTROLE DE PESSOAS ---- \n");
+            var tela = new Inicio();
 
-            Console.WriteLine("(1) Cadastrar");
-            Console.WriteLine("(2) Alterar");
-            Console.WriteLine("(3) Excluir");
-            Console.WriteLine("(4) Listar Todos");
-            Console.WriteLine("(5) Buscar Po Id");
+            tela.Menu();
 
-            Console.WriteLine("\n Escolha uma opção.");
-            int opcao = int.Parse(Console.ReadLine());
-
-            var Pc = new PessoaControle();
-
-            switch (opcao)
-            {
-                case 1:
-                    Pc.CadastrarPessoa();
-                    break;
-
-                case 4:
-                    Pc.ConsultarPessoas();
-                    break;
-
-                default:
-                    Console.WriteLine("Opção inválida !!");
-                    break;
-            }
             Console.ReadKey();
         }
     }

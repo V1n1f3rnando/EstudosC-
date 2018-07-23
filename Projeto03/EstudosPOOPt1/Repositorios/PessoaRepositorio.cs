@@ -11,6 +11,7 @@ namespace EstudosPOOPt1.Repositorios
 {
     public class PessoaRepositorio : Conexao
     {
+        //Método para cadastrar pessoa no banco
         public void Cadastrar(Pessoa p)
         {
             AbrirConexao();
@@ -28,6 +29,35 @@ namespace EstudosPOOPt1.Repositorios
 
         }
 
+        public void Alterar(Pessoa p)
+        {
+            AbrirConexao();
+
+            string query = "update Pessoa set nome = @nome, dataNascimento = @dataNascimento where IdPessoa = @IdPessoa";
+
+            cmd = new SqlCommand(query,con);
+            cmd.Parameters.AddWithValue("@IdPessoa", p.IdPessoa);
+            cmd.Parameters.AddWithValue("@nome", p.Nome);
+            cmd.Parameters.AddWithValue("@dataNascimento", p.DataNasc);
+            cmd.ExecuteNonQuery();
+
+            FecharConexao();
+        }
+
+        public void DeletarPessoa (int id)
+        {
+            AbrirConexao();
+
+            string query = "delete from Pessoa where IdPessoa = @IdPessoa";
+
+            cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@IdPessoa", id);
+            cmd.ExecuteNonQuery();
+
+            FecharConexao();
+        }
+
+        //Método de consulta de pessoas
         public List<Pessoa> ConsultarPessoa()
         {
             AbrirConexao();
@@ -56,5 +86,33 @@ namespace EstudosPOOPt1.Repositorios
 
             return lista; // retonando a lista 
         }
+
+        public Pessoa BuscarPessoaPoId(int id)
+        {
+            AbrirConexao();
+
+            string query = "select * from Pessoa where IdPessoa = @IdPessoa";
+       
+            cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@IdPessoa",id);
+
+            dr = cmd.ExecuteReader();
+
+            Pessoa p = null;
+
+            if (dr.Read())
+            {
+                p = new Pessoa();
+
+                p.IdPessoa = Convert.ToInt32(dr["IdPessoa"]);
+                p.Nome = Convert.ToString(dr["nome"]);
+                p.DataNasc = Convert.ToDateTime(dr["dataNascimento"]);
+            }
+
+            FecharConexao();
+
+            return p;
+        }
+
     }
 }
