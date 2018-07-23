@@ -11,11 +11,10 @@ namespace EstudosPOOPt1
     {
         static void Main(string[] args)
         {
-            var tela = new Inicio();
+            //Chamando o método statico da classe início
+           Inicio.Menu();
 
-            tela.Menu();
-
-            Console.ReadKey();
+           Console.ReadKey();
         }
     }
 }

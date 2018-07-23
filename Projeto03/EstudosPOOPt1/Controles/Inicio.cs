@@ -5,12 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-
 namespace EstudosPOOPt1.Controles
 {
-    class Inicio
+    public class Inicio
     {
-        public void Menu()
+        public Inicio()
+        {
+           
+        }
+        public static void Menu()
         {
             Console.WriteLine("\n ---- CONTROLE DE PESSOAS ---- \n");
 
