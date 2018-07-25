@@ -1,0 +1,10 @@
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\bin\Debug\EstudosOO.exe.config
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\bin\Debug\EstudosOO.exe
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\bin\Debug\EstudosOO.pdb
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\bin\Debug\Projeto.Entidades.dll
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\bin\Debug\Projeto.Entidades.pdb
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\obj\Debug\EstudosOO.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\obj\Debug\EstudosOO.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\obj\Debug\EstudosOO.csproj.CopyComplete
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\obj\Debug\EstudosOO.exe
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto05\EstudosOO\obj\Debug\EstudosOO.pdb

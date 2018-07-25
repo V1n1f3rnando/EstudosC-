@@ -44,6 +44,15 @@ namespace Projeto.Entidades.Controles
                         Console.WriteLine("Valor incorreto !");
                         break;
                 }
+
+                Console.Write("\n Informe a sua senha: ");
+                u.Senha = c.Encriptar(Console.ReadLine());
+
+                Console.WriteLine("\n ----- INFORMAÇÕES DO USUÁRIO -----");
+                Console.Write("\n ID:"+u.IdUsuario);
+                Console.Write("\n Usuario :" + u.Login);
+                Console.Write("\n Senha: " + u.Senha);
+
             }
             catch (Exception ex)
             {
