@@ -11,21 +11,21 @@ namespace Projeto.Entidades.Inputs
         //Método para ler o email do destinatario
         public static string LerEmailDestino()
         {
-            Console.WriteLine("Informe o email de destino: ");
+            Console.Write("\n Informe o email de destino: ");
             return Console.ReadLine();
         }
 
         //Método para ler assunto..
         public static string LerAssunto()
         {
-            Console.WriteLine("Informe o assunto da mensagem: ");
+            Console.Write("\n Informe o assunto da mensagem: ");
             return Console.ReadLine();
         }
 
         //Método para ler o conteudo..
         public static string LerConteudo()
         {
-            Console.WriteLine("Informe o conteudo da mensagem: ");
+            Console.Write("\n Informe o conteudo da mensagem: ");
             return Console.ReadLine();
         }
 

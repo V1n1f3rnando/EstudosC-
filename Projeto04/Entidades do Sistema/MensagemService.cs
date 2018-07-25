@@ -9,7 +9,7 @@ using System.Net; // importando
 using System.Net.Mail; //importando 
 
 
-namespace Entidades_do_Sistema
+namespace Projeto.Entidades
 {
     public class MensagemService : IMensagemService
     {

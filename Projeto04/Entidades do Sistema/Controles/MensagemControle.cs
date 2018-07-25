@@ -7,7 +7,7 @@ using Projeto.Entidades;
 using Projeto.Entidades.Inputs;
 using Projeto.Entidades.Servicos;
 
-namespace Entidades_do_Sistema.Controles
+namespace Projeto.Entidades.Controles
 {
     public class MensagemControle
     {
