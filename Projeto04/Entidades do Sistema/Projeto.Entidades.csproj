@@ -40,9 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controles\MensagemControle.cs" />
     <Compile Include="Mensagem.cs" />
-    <Compile Include="MensagemInput.cs" />
+    <Compile Include="Inputs\MensagemInput.cs" />
+    <Compile Include="MensagemService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicos\IMensagemService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

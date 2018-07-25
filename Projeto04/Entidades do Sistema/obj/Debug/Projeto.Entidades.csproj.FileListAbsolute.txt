@@ -1,0 +1,6 @@
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto04\Entidades do Sistema\bin\Debug\Entidades do Sistema.dll
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto04\Entidades do Sistema\bin\Debug\Entidades do Sistema.pdb
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto04\Entidades do Sistema\obj\Debug\Projeto.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto04\Entidades do Sistema\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto04\Entidades do Sistema\obj\Debug\Entidades do Sistema.dll
+C:\Users\Fernando\Documents\GitHub\EstudosCSharp\Projeto04\Entidades do Sistema\obj\Debug\Entidades do Sistema.pdb
